@@ -48,13 +48,6 @@
     // Insert code here to tear down your application
 }
 
-- (void)awakeFromNib {
-    self.statusBar = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
-    [self.statusBar setTitle:@"A"];
-    self.statusBar.menu = self.statusMenu;
-    self.statusBar.highlightMode = YES;
-}
-
 - (IBAction)setStartAtLogin:(id)sender {
     NSUInteger state = NSOffState;
     if(self.startAtLoginItem.state == NSOffState)
