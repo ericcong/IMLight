@@ -28,6 +28,8 @@
 	<string>Copyright © 2014年 BlahGeek. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
+	<key>NSAppSleepDisabled</key>
+	<true/>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>
