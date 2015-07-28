@@ -30,6 +30,8 @@
 	<string>MainMenu</string>
 	<key>NSAppSleepDisabled</key>
 	<true/>
+	<key>LSBackgroundOnly</key>
+	<true/>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>
